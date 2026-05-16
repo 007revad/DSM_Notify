@@ -20,7 +20,7 @@
     "beta": "no",
     "dsmuidir": "ui",
     "dsmappname": "SYNO.SDS._ThirdParty.App.dsm_notify",
-    "ctl_stop": "no"
-    "install_dep_packages": "",
+    "ctl_stop": "no",
+    "install_dep_packages": ""
   }
 }
