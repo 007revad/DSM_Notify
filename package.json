@@ -5,10 +5,6 @@
   "description": "DSM notification strings for scheduled 007revad scripts",
   "target": "./src",
   "install_type": "package",
-  "dsmuidir": "ui",
-  "install_dep_packages": "",
-  "ctl_stop": "yes",
-  "ctl_uninstall": "yes",
   "support_conf_folder": "yes",
   "synology": {
     "maintainer": "007revad",
@@ -21,6 +17,10 @@
     "arch": "x86_64",
     "displayname": "DSM Notify",
     "thirdparty": "yes",
-    "beta": "no"
+    "beta": "no",
+    "dsmuidir": "ui",
+    "dsmappname": "SYNO.SDS._ThirdParty.App.dsm_notify",
+    "ctl_stop": "no"
+    "install_dep_packages": "",
   }
 }
