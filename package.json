@@ -1,7 +1,7 @@
 {
   "package": "dsm_notify",
   "name": "dsm_notify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Allows scheduled 007revad scripts to send DSM notifications",
   "target": "./src",
   "install_type": "package",
@@ -18,8 +18,6 @@
     "displayname": "DSM Notify",
     "thirdparty": "yes",
     "beta": "no",
-    "dsmuidir": "ui",
-    "dsmappname": "SYNO.SDS._ThirdParty.App.dsm_notify",
     "ctl_stop": "no",
     "install_dep_packages": ""
   }
