@@ -1,0 +1,28 @@
+{
+  ".url": {
+    "SYNO.SDS._ThirdParty.App.dsm_notify": {
+      "title": "DSM Notify",
+      "desc": "DSM notification strings for scheduled 007revad scripts",
+      "type": "legacy",
+      "allUsers": true,
+      "texts": "texts",
+      "preloadTexts": [
+        "app1:title_update",
+        "app1:title_update_dryrun",
+        "app1:title_failed",
+        "app1:title_error",
+        "app1:title_starting",
+        "app1:title_success",
+        "app1:title_warning",
+        "app1:msg_available",
+        "app1:msg_available_dryrun",
+        "app1:msg_starting",
+        "app1:msg_success",
+        "app1:msg_failed",
+        "app1:msg_download_failed",
+        "app1:msg_error",
+        "app1:msg_warning"
+      ]
+    }
+  }
+}
