@@ -9,7 +9,7 @@
 
 ### Description
 
-Package to allow my scripts to send DSM notifications in DSM 7.
+Synology package to allow my scheduled scripts to send notifications to DSM 7.
 
 ### How to install the package
 
