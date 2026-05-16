@@ -1,2 +1,6 @@
+v1.0.1
+- Changed so package cannot be stopped.
+  - If the package is stopped it prevents script's notifications from appearing.
+
 v1.0.0
 - First release.

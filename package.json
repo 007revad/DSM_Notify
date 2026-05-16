@@ -1,8 +1,8 @@
 {
   "package": "dsm_notify",
   "name": "dsm_notify",
-  "version": "1.0.0",
-  "description": "DSM notification strings for scheduled 007revad scripts",
+  "version": "1.0.1",
+  "description": "Allows scheduled 007revad scripts to send DSM notifications",
   "target": "./src",
   "install_type": "package",
   "support_conf_folder": "yes",
