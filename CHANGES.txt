@@ -1,3 +1,6 @@
+v1.0.5
+- Bug fix for notifications not working in v1.0.4.
+
 v1.0.4
 - Bug fix for notifications not working in v1.0.3.
 - Added the Open button back to show the small DSM information popup.
