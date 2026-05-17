@@ -33,5 +33,10 @@ There are 2 ways to install the package:
 
 <br>
 
+<!--- <p align="center">Description of image 1 goes here</p> --->
+<p align="center"><img src="/images/window.png"></p>
+
+<br>
+
 <p align="center">Notification from dsm_update.sh script</p>
 <p align="center"><img src="/images/notification.png"></p>
