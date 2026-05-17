@@ -1,9 +1,13 @@
 {
-  ".url": {
+  "dsm_notify.js": {
     "SYNO.SDS._ThirdParty.App.dsm_notify": {
+      "type": "app",
       "title": "DSM Notify",
       "desc": "DSM notification strings for scheduled 007revad scripts",
-      "type": "legacy",
+      "icon": "images/icon_{0}.png",
+      "appWindow": "SYNO.SDS.dsm_notify.MainWindow",
+      "allowMultiInstance": false,
+      "allowStandalone": true,
       "allUsers": true,
       "texts": "texts",
       "preloadTexts": [
@@ -23,6 +27,11 @@
         "app1:msg_error",
         "app1:msg_warning"
       ]
+    },
+    "SYNO.SDS.dsm_notify.MainWindow": {
+      "type": "lib",
+      "title": "DSM Notify",
+      "icon": "images/icon_{0}.png"
     }
   }
 }

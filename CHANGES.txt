@@ -1,3 +1,7 @@
+v1.0.3
+- Bug fix for package missing it's icon on DSM desktop.
+- Bug fix for clicking on package's icon on DSM desktop opening a blank browser window.
+
 v1.0.2
 - Bug fix for Open button showing in Package Center (when package has no ui to open).
 
