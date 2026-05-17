@@ -1,5 +1,6 @@
 v1.0.4
 - Bug fix for notifications not working in v1.0.3.
+- Added the Open button back to show the small DSM information popup.
 
 v1.0.3
 - Bug fix for package missing it's icon on DSM desktop.
