@@ -9,7 +9,7 @@
 
 ### Description
 
-Package to allow my scripts to send DSM notifications in DSM 7.
+Synology package to allow my scheduled scripts to send notifications to DSM 7.
 
 ### How to install the package
 
@@ -29,9 +29,9 @@ There are 2 ways to install the package:
 ### Screenshots
 
 <!--- <p align="center">Description of image 1 goes here</p> --->
-<p align="center"><img src="/images/IMAGE_NAME.png"></p>
+<p align="center"><img src="/images/installed.png"></p>
 
 <br>
 
-<!--- <p align="center">Description of image 2 goes here</p> --->
-<p align="center"><img src="/images/IMAGE_NAME.png"></p>
+<p align="center">Notification from dsm_update.sh script</p>
+<p align="center"><img src="/images/notification.png"></p>
