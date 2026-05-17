@@ -16,8 +16,8 @@
     "os_max_ver": "9.9-99999",
     "arch": "x86_64",
     "displayname": "DSM Notify",
-    "dsmappname": "SYNO.SDS._ThirdParty.App.dsm_notify"
-    "dsmuidir": "ui"
+    "dsmappname": "SYNO.SDS._ThirdParty.App.dsm_notify",
+    "dsmuidir": "ui",
     "thirdparty": "yes",
     "beta": "no",
     "ctl_stop": "no",
