@@ -26,6 +26,31 @@ There are 2 ways to install the package:
 3. Browse to where you downloaded the .spk file.
 4. Select the .spk file and click Next.
 
+
+### How to use with your own scripts
+
+Your scripts will need to be run by, or scheduled to run as, a user in the administrators group or as root.
+
+There are 2 titles the synodsmnotify command can use for the DSM 7 notification:
+  - title_success (which will show "Script finished task")
+  - title_error (which will show "Script aborted due to errors")
+
+The body of the notification (msg) can be almost anything you want and can include variables.
+
+```
+synodsmnotify -c SYNO.SDS._ThirdParty.App.dsm_notify "@administrators" "dsm_notify:app0:title_success" "dsm_notify:app0:msg" "Script finished task"
+synodsmnotify -c SYNO.SDS._ThirdParty.App.dsm_notify "@administrators" "dsm_notify:app0:title_error" "dsm_notify:app0:msg" "Script aborted due to errors"
+
+script="Syno_HDD_dd"
+synodsmnotify -c SYNO.SDS._ThirdParty.App.dsm_notify "@administrators" "dsm_notify:app0:title_success" "dsm_notify:app0:msg" "$script finished okay"
+synodsmnotify -c SYNO.SDS._ThirdParty.App.dsm_notify "@administrators" "dsm_notify:app0:title_success" "dsm_notify:app0:msg" "$script on $(hostname) finished okay"
+
+error="File missing"
+synodsmnotify -c SYNO.SDS._ThirdParty.App.dsm_notify "@administrators" "dsm_notify:app0:title_error" "dsm_notify:app0:msg" "Script aborted due to an error: $error"
+```
+
+<p align="center"><img src="/images/msg_samples.png"></p>
+
 ### Screenshots
 
 <!--- <p align="center">Description of image 1 goes here</p> --->
