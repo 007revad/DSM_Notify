@@ -3,7 +3,7 @@
     "SYNO.SDS._ThirdParty.App.dsm_notify": {
       "type": "app",
       "title": "DSM Notify",
-      "desc": "DSM notification strings for scheduled 007revad scripts",
+      "desc": "DSM Notify",
       "icon": "images/icon_{0}.png",
       "appWindow": "SYNO.SDS.dsm_notify.MainWindow",
       "allowMultiInstance": false,
