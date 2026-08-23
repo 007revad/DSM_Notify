@@ -1,3 +1,6 @@
+v1.0.6
+- Changed icon so it's more visible on a dark background.
+
 v1.0.5
 - Bug fix for notifications not working in v1.0.4.
 
